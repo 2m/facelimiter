@@ -1,0 +1,1 @@
+appletviewer -J-Djava.security.policy=polfile index.html

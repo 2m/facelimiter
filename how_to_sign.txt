@@ -1,0 +1,5 @@
+1. keytool -genkey -keystore myKeyStore -alias 2mrc
+2. keytool -selfcert -keystore myKeyStore -alias 2mrc
+3. jarsigner -keystore myKeyStore Facelimiter.jar 2mrc
+
+2mrckeystore
